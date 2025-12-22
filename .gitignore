@@ -1,0 +1,26 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# C++ binaries and objects
+*.o
+lab03_tokenization/tokenizer
+lab04_stemming/stemmer
+lab07_bool_index/indexer
+lab08_bool_search/searcher
+lab08_bool_search/dump_index
+
+# Data
+data/
+index.bin
+all_words.txt
+top_words.txt
+test_tokens.txt
+test_stems.txt
